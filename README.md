@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-a function cabe called within another function
+a function can be reused while a method cannot
 
 3. What is closure?
 
