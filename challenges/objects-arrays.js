@@ -139,18 +139,18 @@ const displayNames = zooAnimals.forEach(function(item){
   return newArray.push(`Name: ${item.animal_name} Scientific: ${item.scientific_name}`);
 });
 
-console.log(displayNames);
+console.log(newArray);
 
 /* Request 2: .map()
 
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
 
 */
-newArray = []
+
 const lowCaseAnimalNames = zooAnimals.map(function(item){
   let str = item.animal_name;
-  let newStr = str.toLowerCase;
-  return newArray.push(newStr);
+  let newStr = str.toLowerCase();
+  return newStr;
 });
 console.log(lowCaseAnimalNames);
 

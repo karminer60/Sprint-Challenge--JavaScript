@@ -21,11 +21,7 @@ class cuboid{
     Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
   */
   
- let newCuboid = new cuboid({
-    length: 4,
-    width: 5,
-    height: 5,
-  });
+ let newCuboid = new cuboid(4, 5,5);
 
   
 
